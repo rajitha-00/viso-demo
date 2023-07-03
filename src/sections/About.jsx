@@ -11,13 +11,13 @@ const About = () => {
     <>
     <div className="wrapper">
 
-      <section className='about  ' id='about'>
-        <div className="lg:max-w-7xl px-7 mx-auto flex flex-wrap items-center md:justify-between pt-20">
+      <section className='about   ' id='about'>
+        <div className="lg:max-w-7xl px-7 mx-auto md:flex md:flex-wrap items-center md:justify-between pt-20">
 
-          <div className="left-side w-2/3 ">
-              <h1 className='text-white lg:text-3xl px-10 mt-5'>23+ Experience in Legislative Drafting</h1>
-              <img className=' px-10 mt-4' src={Line} alt="" />
-              <h3 className='text-gray-400 px-10 mt-16'>As a Deputy Legal Draftsman in the Legal Draftsman Department of Sri Lanka</h3>
+          <div className="left-side  md:w-2/3 ">
+              <h1 className='text-white lg:text-3xl md:px-10 mt-5'>23+ Experience in Legislative Drafting</h1>
+              <img className=' md:px-10 mt-4' src={Line} alt="" />
+              <h3 className='text-gray-400 md:px-10 mt-16'>As a Deputy Legal Draftsman in the Legal Draftsman Department of Sri Lanka</h3>
               <AboutBox
               urlImage={Law}
               text="I have a proven track record of drafting primary legislations, amending existing legislations, and incorporating body of persons."
@@ -31,12 +31,12 @@ const About = () => {
               text="I have completed the Advanced Legislative Drafting course by the International Law Institute, Washington DC, United States of America in 2018."
               />
           </div>
-          <div className="right-side w-1/3">
+          <div className="right-side md:w-1/3 ">
               <div className="flex justify-end">
 
                 <h1 className='text-blue-950 lg:text-3xl'>About Me</h1>
               </div>
-              <img className='mt-20' src={AboutFig} alt="" />
+              <img className='mt-20 pb-10' src={AboutFig} alt="" />
           </div>
         </div>
      
