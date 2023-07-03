@@ -19,27 +19,27 @@ export const servicesArray = [
     }
   ];
 export const projectsArray = [
+    // {
+    //     id: '1',
+    //     imgUrl:'/project_1.png',
+    //     title: 'Blog Name Here',
+    //     content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
+    // },
     {
         id: '1',
-        imgUrl:'/project_1.png',
+        imgUrl:'/project_2.png',
         title: 'Blog Name Here',
         content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
     },
     {
         id: '2',
-        imgUrl:'/project_1.png',
+        imgUrl:'/project_3.png',
         title: 'Blog Name Here',
         content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
     },
     {
         id: '3',
-        imgUrl:'/project_1.png',
-        title: 'Blog Name Here',
-        content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
-    },
-    {
-        id: '4',
-        imgUrl:'/project_1.png',
+        imgUrl:'/project_4.png',
 
         title: 'Blog Name Here',
         content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
