@@ -5,14 +5,15 @@ const Contact = () => {
     <>
       <div className="wrapper-contact">
 
-      <section className="contact flex items-center justify-center" id='contact'>
-        <div className="contactCard bg-white w-1/2 px-20 py-10">
+      <section className="contact  flex items-center justify-center mb-40" id='contact'>
+        <div className="contactCard bg-white md:w-full lg:w-1/2 px-10 py-10 mb-40">
 
-          <h1 className='lg:text-3xl text-blue-950'>Get In Touch</h1>
-          <div className="flex justify-between">
 
-            <div className="left-side">
-              <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+          <div className="mx-auto flex  items-center justify-between">
+
+            <div className="left-side mx-5">
+            <h1 className='lg:text-3xl text-blue-950'>Get In Touch</h1>
+              <form action="#" method="POST" className="mx-auto  max-w-xl mt-5">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
 
@@ -81,8 +82,8 @@ const Contact = () => {
               </form>
 
             </div>
-            <div className="right-side">
-              <img src={ContactFig} alt="" />
+            <div className="right-side hidden sm:block ">
+              <img src={ContactFig} className="" alt="" />
             </div>
           </div>
         </div>
