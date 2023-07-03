@@ -9,8 +9,8 @@ const navigation = [
     { name: 'Project', href: '#projects' },
     { name: 'Contact Us', href: '#contact' },
 ]
-
 const Navbar = () => {
+const [activeNavItem, setActiveNavItem] = useState('Home');
 
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
@@ -20,13 +20,13 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Rajitha Priyankara</span>
-              <h1 className='lg:text-4xl lg:pl-28'>LOGO</h1>
+              <h1 className='text-4xl lg:pl-28'>LOGO</h1>
             </a>
           </div>
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -35,7 +35,12 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+              <a
+              key={item.name}
+              href={item.href}
+              className={`text-sm font-semibold leading-6 ${item.name === activeNavItem ? 'text-orange-400' : 'text-white'}`}
+              onClick={() => setActiveNavItem(item.name)}
+              >                
                 {item.name}
               </a>
             ))}
@@ -48,11 +53,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Rajitha Priyankara</span>
-                <img
-                  className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <h1 className='text-4xl lg:pl-28'>LOGO</h1>
               </a>
               <button
                 type="button"

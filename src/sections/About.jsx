@@ -11,8 +11,8 @@ const About = () => {
     <>
     <div className="wrapper">
 
-      <section className='about   ' id='about'>
-        <div className="lg:max-w-7xl px-7 mx-auto md:flex md:flex-wrap items-center md:justify-between pt-20">
+      <section className='about items-center justify-center mx-auto ' id='about'>
+        <div className="lg:max-w-7xl px-7 mx-auto pt-40 md:flex md:flex-wrap items-center md:justify-between ">
 
           <div className="left-side  md:w-2/3 ">
               <h1 className='text-white lg:text-3xl md:px-10 mt-5'>23+ Experience in Legislative Drafting</h1>

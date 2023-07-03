@@ -5,7 +5,7 @@ import BloagFig from '../assets/project_1.png'
 const Projects = () => {
   return (
     <>
-      <section className="projects lg:max-w-7xl mx-auto " id='projects'>
+      <section className="projects pt-40 lg:max-w-7xl mx-auto " id='projects'>
         <h1 className="lg:text-3xl text-blue-950 px-7 mt-20">Successfully completed projects</h1>
         <div className="lg:max-w-7xl mt-5 mx-auto lg:flex md:flex-wrap md:justify-between">
           <div className="left-side lg:w-1/2 px-5">

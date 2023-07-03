@@ -5,8 +5,8 @@ const Contact = () => {
     <>
       <div className="wrapper-contact">
 
-      <section className="contact  flex items-center justify-center mb-40" id='contact'>
-        <div className="contactCard bg-white md:w-full lg:w-1/2 px-10 py-10 mb-40">
+      <section className="contact pt-40  flex items-center justify-center mb-40" id='contact'>
+        <div className="contactCard bg-white md:w-full lg:w-1/2 px-10 py-10 mb-60">
 
 
           <div className="mx-auto flex  items-center justify-between">
