@@ -7,9 +7,9 @@ import Twitter from '../assets/twiter.png'
 const Footer = () => {
   const [activeNavItem, setActiveNavItem] = useState('Home');
   return (
-    <footer className='mt-40 w-full'>
+    <footer className='w-full'>
 
-        <div className="mt-60 bg-blue-950 w-full py-24 sm:py-32">
+        <div className="mt-20 bg-blue-950 w-full py-24 sm:py-32">
         <div className="mx-auto  px-6 lg:px-8">
             <div className="flex flex-wrap justify-between items-center w-full">
                 <div className="left mt-5">

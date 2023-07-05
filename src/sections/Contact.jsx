@@ -5,16 +5,16 @@ const Contact = () => {
     <>
       <div className="wrapper-contact">
 
-      <section className="contact pt-40  flex items-center justify-center mb-40" id='contact'>
-        <div className="contactCard bg-white md:w-full lg:w-1/2 px-10 py-10 mb-60">
+      <section className="contact pt-60  flex items-center justify-center" id='contact'>
+        <div className="contactCard bg-white  px-10 py-10 ">
 
 
-          <div className="mx-auto flex  items-center justify-between">
+          <div className="mx-auto flex  items-center justify-around">
 
             <div className="left-side mx-5">
             <h1 className='lg:text-3xl text-blue-950 text-xl text-center font-semibold md:text-start'>Get In Touch</h1>
-              <form action="#" method="POST" className="mx-auto  max-w-xl mt-5">
-              <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+              <form action="#" method="POST" className="max-w-3xl mt-5">
+              <div className="grid grid-cols-1 gap-x-9 gap-y-6 sm:grid-cols-2">
                 <div>
 
                   <div className="mt-2.5">

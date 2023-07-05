@@ -8,11 +8,11 @@ const BlogCard = (props) => {
             <img className="max-w-40 h-40" src={process.env.PUBLIC_URL + props.imgUrl} alt="" />
         </div>
         <div className="textCard h-40 px-5 ">
-            <h2 className='md:text-2xl font-semibold text-blue-950 '>{props.title}</h2>
+            <h2 className=' '>{props.title}</h2>
             <p className='mt-2'>{props.content}</p>
             <div className="continueBtn flex justify-end w-full">
 
-                <button className='text-orange-400 '>Continue reading...</button>
+                <button className='btnRead '>Continue reading...</button>
             </div>
         </div>
       </div>

@@ -118,6 +118,15 @@ section{
 .wrapper-servicess {
   position: relative;
 }
+.btnRead{
+    color: #E59D11;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto Serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
 .about {
   position: relative;
   .left-side{
@@ -176,6 +185,25 @@ section{
     width: 100%;
   }
 }
+.services{ 
+    h1{
+        color: #131840;
+        text-align: center;
+        font-size: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h2{
+        color: #2F3BA6;
+        font-size: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
 .wrapper-servicess::before {
   content: "";
   position: absolute;
@@ -183,7 +211,7 @@ section{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.54);
+  background: rgba(177, 185, 255, 0.54);
   z-index: 1;
 }
 
@@ -198,14 +226,51 @@ section{
   background-size: cover;
   z-index: 0;
 }
+.projects{
+    h1{
+        color: #131840;
+        font-size: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h2{
+        color: #131840;
+        font-size: 24px;
+        font-family: Roboto Serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    p{
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 153.188%;
+    }
+}
 .card{
   background: #FFF;
   box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
 
+  h1{
+    color: #131840;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
+
 }
 .wrapper-contact {
   position: relative;
-  height: 50vh; /* Set the height to 50vh */
+  /* Set the height to 50vh */
 }
 
 .wrapper-contact::before {
@@ -214,7 +279,7 @@ section{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 551px;
   background-color: rgba(177, 185, 255, 0.54);
   background-size: 70vh;
   z-index: 1;
@@ -226,14 +291,16 @@ section{
   top: 0;
   left: 0;
   width: 100%;
-  height: 50vh; /* Set the height to 50vh */
-  background-image: url(./assets/services_bg.png);
+  height: 551px; /* Set the height to 50vh */
+  background-image: url(./assets/contact_bg.png);
   background-size: cover; /* Use 'cover' to ensure the image covers the entire area */
   background-repeat: no-repeat;
   z-index: 0;
 }
 .contactCard{
   background: #FFF;
+  max-width: 1178px;
+  width: 100%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
 }
 .imgCard img{
