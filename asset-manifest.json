@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/viso-demo/static/css/main.0ed41329.css",
+    "main.js": "/viso-demo/static/js/main.78112bb8.js",
+    "static/js/787.92328127.chunk.js": "/viso-demo/static/js/787.92328127.chunk.js",
+    "static/media/hero.png": "/viso-demo/static/media/hero.c5f49c5674c8e17e102d.png",
+    "static/media/services_bg.png": "/viso-demo/static/media/services_bg.55c6d3f445e8b7e2af03.png",
+    "static/media/project_1.png": "/viso-demo/static/media/project_1.3ecf3839334935b9c6a1.png",
+    "static/media/about.png": "/viso-demo/static/media/about.6e56fa4fd6e5ec8e3fd1.png",
+    "static/media/contact.png": "/viso-demo/static/media/contact.8a6fbaf77333019c6504.png",
+    "static/media/header.png": "/viso-demo/static/media/header.fdcfb575cb677e16fe7e.png",
+    "index.html": "/viso-demo/index.html",
+    "main.0ed41329.css.map": "/viso-demo/static/css/main.0ed41329.css.map",
+    "main.78112bb8.js.map": "/viso-demo/static/js/main.78112bb8.js.map",
+    "787.92328127.chunk.js.map": "/viso-demo/static/js/787.92328127.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ed41329.css",
+    "static/js/main.78112bb8.js"
+  ]
+}
