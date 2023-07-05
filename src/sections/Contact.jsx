@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="mx-auto flex  items-center justify-between">
 
             <div className="left-side mx-5">
-            <h1 className='lg:text-3xl text-blue-950 text-xl text-center md:text-start'>Get In Touch</h1>
+            <h1 className='lg:text-3xl text-blue-950 text-xl text-center font-semibold md:text-start'>Get In Touch</h1>
               <form action="#" method="POST" className="mx-auto  max-w-xl mt-5">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 <div>
