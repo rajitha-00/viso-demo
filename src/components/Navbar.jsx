@@ -2,22 +2,25 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import {navigation} from '../constants'
-
+import Vector from '../assets/vector.png'
 const Navbar = () => {
 const [activeNavItem, setActiveNavItem] = useState('Home');
 
 const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <>
-      <header className="fixed lawHeader inset-x-0 top-0 z-50 text-white">
+    <div className="vector">
+      <img src={Vector} alt="" />
+    </div>
+      <header className=" lawHeader inset-x-0 top-0 z-50 text-white">
         <nav className="  flex items-center justify-between p-6 lg:p-7 " aria-label="Global">
-          <div className="flex lg:flex-1">
+          <div className="flex lg:flex-1 logo">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Rajitha Priyankara</span>
               <h1 className='text-4xl lg:pl-28'>LOGO</h1>
             </a>
           </div>
-          <div className="flex lg:hidden">
+          <div className="flex lg:hidden logo">
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
@@ -27,7 +30,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden logo lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a
               key={item.name}
