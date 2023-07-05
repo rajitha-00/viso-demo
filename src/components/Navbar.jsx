@@ -13,11 +13,11 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
       <img src={Vector} alt="" />
     </div>
       <header className=" lawHeader inset-x-0 top-0 z-50 text-white">
-        <nav className="  flex items-center justify-between p-6 lg:p-7 " aria-label="Global">
+        <nav className=" maxWidthPage mx-auto flex items-center justify-between p-6 lg:p-7 " aria-label="Global">
           <div className="flex lg:flex-1 logo">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Rajitha Priyankara</span>
-              <h1 className='text-4xl lg:pl-28'>LOGO</h1>
+              <h1 className='text-4xl '>LOGO</h1>
             </a>
           </div>
           <div className="flex lg:hidden logo">

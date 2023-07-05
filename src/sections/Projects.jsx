@@ -5,9 +5,9 @@ import BloagFig from '../assets/project_1.png'
 const Projects = () => {
   return (
     <>
-      <section className="projects pt-20  lg:max-w-7xl mx-auto " id='projects'>
+      <section className="projects maxWidthPage pt-20 mb-20  mx-auto " id='projects'>
         <h1 className="text-center md:text-start px-5 ">Successfully completed projects</h1>
-        <div className="lg:max-w-7xl mt-5 mx-auto lg:flex md:flex-wrap md:justify-between">
+        <div className="maxWidthPage mt-5 mx-auto lg:flex md:flex-wrap md:justify-between">
           <div className="left-side lg:w-1/2 px-5">
             <img src={BloagFig} alt="" />
             <h2 className='mt-5'>Blog name here</h2>
@@ -17,7 +17,7 @@ const Projects = () => {
               <button className='btnRead '>Continue reading...</button>
             </div>
           </div>
-          <div className="right-side lg:w-1/2 sm:flex sm:flex-wrap">
+          <div className="right-side lg:w-1/2 sm:flex sm:flex-wrap flex-col justify-between">
           {projectsArray.map((project) => (
           <BlogCard
             key={project.id}

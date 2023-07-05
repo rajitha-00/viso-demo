@@ -7,7 +7,7 @@ const Services = () => {
     <div className="wrapper-servicess">
       <section className="services  mx-auto " id='services'>
         <h1 className='text-center pt-20'>We Provide Best Service</h1>
-        <div className="lg:max-w-7xl px-7 mx-auto flex flex-wrap items-center md:justify-between pb-16">
+        <div className="maxWidthPage px-7 mx-auto flex flex-wrap items-center md:justify-between pb-16">
 
         {servicesArray.map((service) => (
           <ServiceCard

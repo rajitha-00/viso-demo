@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className="mt-20 bg-blue-950 w-full py-24 sm:py-32">
         <div className="mx-auto  px-6 lg:px-8">
-            <div className="flex flex-wrap justify-between items-center w-full">
+            <div className="maxFooter flex flex-wrap justify-between items-center w-full">
                 <div className="left mt-5">
                   <h1 className='text-4xl lg:pl-28 text-white'>LOGO</h1>
                 </div> 
@@ -28,7 +28,7 @@ const Footer = () => {
                   ))}
                 </div>
                 <div className="right mt-5">
-                    <div className="icons_container flex gap-x-3">
+                    <div className="icons_container flex justify-end gap-x-3">
                       <a href="#">
                         <img  src={Fb} className='w-9 footerIcon' alt="" />
                       </a>
@@ -45,6 +45,9 @@ const Footer = () => {
                        
 
 
+                    </div>
+                    <div className="textFoter mt-3">
+                      <p>© 2023 Viso Group — ALL RIGHTS RESERVED</p>
                     </div>
                 </div>         
             </div>

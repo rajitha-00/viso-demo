@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <div className="wrapper-contact">
 
-      <section className="contact pt-60  flex items-center justify-center" id='contact'>
+      <section className="contact pt-60   flex items-center justify-center" id='contact'>
         <div className="contactCard bg-white  px-10 py-10 ">
 
 
@@ -74,9 +74,12 @@ const Contact = () => {
               <div className="mt-10">
                 <button
                   type="submit"
-                  className="block px-14 rounded-md bg-orange-400 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="flex justify-center px-10  button_yellow py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 "
                 >
-                  Send
+                  Send <span className='mt-0.5'> <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" stroke-width="1.5" stroke="none" class="w-4 h-4">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+</svg>
+</span>
                 </button>
               </div>
               </form>

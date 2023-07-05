@@ -12,7 +12,7 @@ const About = () => {
     <div className="wrapper">
 
       <section className='about items-center  justify-center mx-auto ' id='about'>
-        <div className="lg:max-w-7xl px-7 mx-auto pt-20 pb-20 md:flex md:flex-wrap items-center md:justify-between ">
+        <div className="maxWidthPage  px-7 mx-auto pt-20 pb-20 md:flex md:flex-wrap items-center md:justify-between ">
 
           <div className="left-side  md:w-2/3 ">
               <h1 className='text-white md:text-4xl text-xl md:px-10 mt-5'>23+ Experience in Legislative Drafting</h1>

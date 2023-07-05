@@ -109,6 +109,12 @@ section{
   
 
 }
+.maxWidthPage{
+    max-width: 1448px;
+}
+.maxFooter{
+    max-width: 1780px;
+}
 .text-active{
     color: #E59D11;
 }
@@ -257,15 +263,7 @@ section{
   background: #FFF;
   box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
 
-  h1{
-    color: #131840;
-    font-size: 40px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 
-  }
 
 }
 .wrapper-contact {
@@ -302,6 +300,15 @@ section{
   max-width: 1178px;
   width: 100%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
+  h1{
+    color: #131840;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+  }
 }
 .imgCard img{
   max-width: none;
@@ -311,4 +318,14 @@ section{
  
 .footerIcon{
   cursor: pointer;
+}
+.textFoter{
+    p{
+        color: #5F5E5E;
+        font-size: 12px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }
