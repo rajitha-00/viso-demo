@@ -5,9 +5,9 @@ import ServiceCard from '../components/ServiceCard';
 const Services = () => {
   return (
     <div className="wrapper-servicess">
-      <section className="services pt-40 mx-auto " id='services'>
-        <h1 className='lg:text-3xl tex-blue-950 text-center pt-20'>We Provide Best Service</h1>
-        <div className="lg:max-w-7xl px-7 mx-auto flex flex-wrap items-center md:justify-between pt-20">
+      <section className="services md:pt-40 mx-auto " id='services'>
+        <h1 className='lg:text-4xl text-xl tex-blue-950 text-center pt-20'>We Provide Best Service</h1>
+        <div className="lg:max-w-7xl px-7 mx-auto flex flex-wrap items-center md:justify-between md:pt-20">
 
         {servicesArray.map((service) => (
           <ServiceCard

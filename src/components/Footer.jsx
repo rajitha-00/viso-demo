@@ -1,25 +1,53 @@
-import React from 'react'
-const stats = [
-    { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-    { id: 2, name: 'Assets under holding', value: '$119 trillion' },
-    { id: 3, name: 'New users annually', value: '46,000' },
-  ]
+import { useState } from 'react'
+import {navigation} from '../constants'
+import Fb from '../assets/fb.png'
+import Insta from '../assets/insta.png'
+import LinkedIn from '../assets/linkedin.png'
+import Twitter from '../assets/twiter.png'
 const Footer = () => {
+  const [activeNavItem, setActiveNavItem] = useState('Home');
   return (
-    <footer className='mt-40'>
+    <footer className='mt-40 w-full'>
 
         <div className="mt-60 bg-blue-950 w-full py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-            {stats.map((stat) => (
-                <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-                <dt className="text-base leading-7 text-gray-600">{stat.name}</dt>
-                <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-                    {stat.value}
-                </dd>
+        <div className="mx-auto  px-6 lg:px-8">
+            <div className="flex flex-wrap justify-between items-center w-full">
+                <div className="left mt-5">
+                  <h1 className='text-4xl lg:pl-28 text-white'>LOGO</h1>
+                </div> 
+                <div className="mt-5 mid flex gap-x-5 md:gap-x-12">
+                  {navigation.map((item) => (
+                    <a
+                    key={item.name}
+                    href={item.href}
+                    className={`text-sm font-semibold leading-6 ${item.name === activeNavItem ? 'text-orange-400' : 'text-white'}`}
+                    onClick={() => setActiveNavItem(item.name)}
+                    >                
+                      {item.name}
+                    </a>
+                  ))}
                 </div>
-            ))}
-            </dl>
+                <div className="right mt-5">
+                    <div className="icons_container flex gap-x-3">
+                      <a href="#">
+                        <img  src={Fb} className='w-9 footerIcon' alt="" />
+                      </a>
+                      <a href="#">
+                        <img src={Twitter} className='w-10 footerIcon' alt="" />
+                      </a>
+                      <a href="#">
+                       <img src={LinkedIn} className='w-9 footerIcon' alt="" />  
+                      </a>
+                      <a href="#">
+                        <img src={Insta} className='w-9 footerIcon' alt="" />
+                      </a>
+                        
+                       
+
+
+                    </div>
+                </div>         
+            </div>
         </div>
         </div>
     </footer>

@@ -1,3 +1,11 @@
+export const navigation = [
+  { name: 'Home', href: '#hero' },
+  { name: 'About', href: '#about' },
+  { name: 'Services', href: '#services' },
+  { name: 'Project', href: '#projects' },
+  { name: 'Contact Us', href: '#contact' },
+]
+
 export const servicesArray = [
     {
       id: '1',
@@ -45,3 +53,4 @@ export const projectsArray = [
         content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam aspernatur exercitationem non officia debitis consequuntur et aliquid labore distinctio quia hic facilis quaerat optio, perferendis, omnis voluptatibus impedit laudantium quod?'
     },
 ];
+

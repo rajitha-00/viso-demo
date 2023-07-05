@@ -1,14 +1,8 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import {navigation} from '../constants'
 
-const navigation = [
-    { name: 'Home', href: '#hero' },
-    { name: 'About', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Project', href: '#projects' },
-    { name: 'Contact Us', href: '#contact' },
-]
 const Navbar = () => {
 const [activeNavItem, setActiveNavItem] = useState('Home');
 
