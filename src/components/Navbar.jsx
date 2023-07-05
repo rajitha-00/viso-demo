@@ -35,7 +35,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
               <a
               key={item.name}
               href={item.href}
-              className={`text-sm font-semibold leading-6 ${item.name === activeNavItem ? 'text-orange-400' : 'text-white'}`}
+              className={`text-sm font-semibold leading-6 ${item.name === activeNavItem ? 'text-active' : 'text-white'}`}
               onClick={() => setActiveNavItem(item.name)}
               >                
                 {item.name}
