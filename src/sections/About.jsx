@@ -15,7 +15,7 @@ const About = () => {
         <div className="lg:max-w-7xl px-7 mx-auto pt-20 md:pt-40 md:flex md:flex-wrap items-center md:justify-between ">
 
           <div className="left-side  md:w-2/3 ">
-              <h1 className='text-white md:text-4xl md:px-10 mt-5'>23+ Experience in Legislative Drafting</h1>
+              <h1 className='text-white md:text-4xl text-xl md:px-10 mt-5'>23+ Experience in Legislative Drafting</h1>
               <img className=' md:px-10 mt-4' src={Line} alt="" />
               <h3 className='text-gray-400 md:px-10 mt-16'>As a Deputy Legal Draftsman in the Legal Draftsman Department of Sri Lanka</h3>
               <AboutBox
@@ -34,7 +34,7 @@ const About = () => {
           <div className="right-side md:w-1/3 ">
               <div className="flex justify-end">
 
-                <h1 className='text-blue-950 md:text-3xl font-semibold'>About Me</h1>
+                <h1 className='md:text-blue-950 text-xl text-white md:text-4xl font-semibold  mt-5'>About Me</h1>
               </div>
               <img className='mt-20 pb-10' src={AboutFig} alt="" />
           </div>
